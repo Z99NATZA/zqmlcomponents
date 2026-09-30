@@ -3,3 +3,6 @@ run:
 
 run-cw:
 	qml6 ClockWeather.qml
+
+run-music:
+	qml6 MusicPlayer.qml

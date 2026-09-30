@@ -6,3 +6,6 @@ run-cw:
 
 run-music:
 	qml6 MusicPlayer.qml
+
+run-status:
+	qml6 SystemStatus.qml

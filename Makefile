@@ -18,3 +18,6 @@ run-calendar:
 
 run-dock:
 	qml6 Dock.qml
+
+run-apps:
+	qml6 Apps.qml

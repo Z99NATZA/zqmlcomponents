@@ -1,3 +1,7 @@
+APPS = Main ClockWeather MusicPlayer SystemStatus Todo Calendar Dock Apps Bar
+
+.PHONY: run-all
+
 run:
 	qml6 Main.qml
 
@@ -24,3 +28,8 @@ run-apps:
 
 run-bar:
 	qml6 Bar.qml
+
+run-all:
+	@trap 'trap - INT TERM; kill 0' INT TERM; \
+	for app in $(APPS); do qml6 $$app.qml & done; \
+	wait

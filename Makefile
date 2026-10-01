@@ -21,3 +21,6 @@ run-dock:
 
 run-apps:
 	qml6 Apps.qml
+
+run-bar:
+	qml6 Bar.qml

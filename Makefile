@@ -12,3 +12,6 @@ run-status:
 
 run-todo:
 	qml6 Todo.qml
+
+run-calendar:
+	qml6 Calendar.qml

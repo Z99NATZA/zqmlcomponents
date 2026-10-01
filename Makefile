@@ -9,3 +9,6 @@ run-music:
 
 run-status:
 	qml6 SystemStatus.qml
+
+run-todo:
+	qml6 Todo.qml

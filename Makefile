@@ -15,3 +15,6 @@ run-todo:
 
 run-calendar:
 	qml6 Calendar.qml
+
+run-dock:
+	qml6 Dock.qml

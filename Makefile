@@ -29,6 +29,9 @@ run-apps:
 run-bar:
 	qml6 Bar.qml
 
+run-as:
+	qml6 AudioSpectrum.qml
+
 run-all:
 	@trap 'trap - INT TERM; kill 0' INT TERM; \
 	for app in $(APPS); do qml6 $$app.qml & done; \
